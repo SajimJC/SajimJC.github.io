@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: #"This is a homepage for SajimJC"
+title: "This is a homepage for SajimJC"
 author_profile: true
 redirect_from: 
   - /about/
