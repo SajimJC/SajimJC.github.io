@@ -1,7 +1,7 @@
 ---
 title: "Welcome to My Blog"
 date: "{{ page.date | date: '%Y-%m-%d' }}"
-permalink: /posts/{{ page.date | date: '%Y/%m' }}/welcome-to-my-blog/
+permalink: "/posts/{{ page.date | date: '%Y/%m' }}/welcome-to-my-blog/"
 tags:
   - announcement
   - blogging
