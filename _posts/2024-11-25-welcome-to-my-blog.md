@@ -1,7 +1,7 @@
 ---
 title: "Welcome to My Blog"
-date: "2024-11-25"  # 固定日期
-permalink: "/posts/2024/11/welcome-to-my-blog/"  # 固定链接
+date: "2024-11-25"  
+permalink: "/posts/2024/11/welcome-to-my-blog/"  
 tags:
   - announcement
   - blogging
