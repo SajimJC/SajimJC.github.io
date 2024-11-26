@@ -39,7 +39,7 @@ The future plans include:
 
 1. Refining some unattended batch scripts faster with paralled mode.
 2. Developing scripts for macOS and Linux platforms.
-3。Integrating more installation scripts of additional software to expand compatibility and streamline deployment processes.
+3. Integrating more installation scripts of additional software to expand compatibility and streamline deployment processes.
 
 ---
 
