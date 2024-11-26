@@ -7,8 +7,6 @@ tags:
   - blogging
 ---
 
-# Welcome to My Blog!
-
 The site is now live! 🎉  
 Feel free to explore my posts, where I share thoughts, ideas, and code snippets. Stay tuned for regular updates, and thank you for visiting!
 
