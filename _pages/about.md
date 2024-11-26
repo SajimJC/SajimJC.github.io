@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "This is a homepage for SajimJC"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,8 +10,10 @@ redirect_from:
 
 A self-intro
 ======
-Hi, I’m SajimJC
+Hi, I’m SajimJC.
+
 👀 I’m interested in Chemistry /IT management/ and Metabolomics.
+
 💞️ I’m now a Ph D.student and want to find spare time to do this field. Hearing from all suggestions for time-consuming in lab and enhance efficiency.
 
 Recent 
