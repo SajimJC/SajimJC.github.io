@@ -94,25 +94,26 @@ The progress details are outlined below:
 *Many software applications are under consideration for inclusion in the silent installation library as appropriate.*
 
 ## Class4_ForAdvancedUserOnly
-|     Software Name      | Installation | Cracking | Configuration |
-|:----------------------:|:------------:|:--------:|:-------------:|
-|         AIDA           |     Done     |   Done   |      N/A      |
-|       Everything       |     Done     |    N/A   |    Partial    |
-|       MobaXterm        |     Done     |    N/A   |    Partial    |
-|         Winscp         |     Done     |    N/A   |    Partial    |
-|       BulkRename       |     Done     |    N/A   |    Partial    |
-|      EV Recorder       |     Done     |    N/A   |    Partial    |
-|   Sysinternal Series   |     Done     |    N/A   |      N/A      |
-|  VMware Workstation    |     Done     |    N/A   |    Partial    |
-|         VSCode         |     Done     |    N/A   |    Partial    |
-| Adobe After Effect     |     Done     |    N/A   |     Done      |
-|    Adobe Animate       |     Done     |    N/A   |     Done      |
-|   Adobe Audition       |     Done     |    N/A   |     Done      |
-| Adobe Premiere Pro     |     Done     |    N/A   |     Done      |
-|        FFmpeg          |     Done     |    N/A   |     Done      |
-|       Goldwave         |     Done     |   Done   |    Partial    |
-|        RealVNC         |     Done     |    N/A   |     Done      |
-|       TeamViewer       |     Done     |    N/A   |     Done      |
+
+|   Software Name   |   Installation   |   Cracking   | Configuration |
+|:-----------------:|:----------------:|:------------:|:-------------:|
+|       AIDA        |       Done       |     Done     |      N/A      |
+|    Everything     |       Done       |      N/A     |    Partial    |
+|     MobaXterm     |       Done       |      N/A     |    Partial    |
+|       Winscp      |       Done       |      N/A     |    Partial    |
+|    BulkRename     |       Done       |      N/A     |    Partial    |
+|    EV Recorder    |       Done       |      N/A     |    Partial    |
+| Sysinternal Series|       Done       |      N/A     |      N/A      |
+| VMware Workstation|       Done       |      N/A     |    Partial    |
+|      VSCode       |       Done       |      N/A     |    Partial    |
+| Adobe After Effect|       Done       |      N/A     |      Done     |
+|  Adobe Animate    |       Done       |      N/A     |      Done     |
+|  Adobe Audition   |       Done       |      N/A     |      Done     |
+|Adobe Premiere Pro |       Done       |      N/A     |      Done     |
+|      FFmpeg       |       Done       |      N/A     |      Done     |
+|     Goldwave      |       Done       |     Done     |    Partial    |
+|      RealVNC      |       Done       |      N/A     |      Done     |
+|    TeamViewer     |       Done       |      N/A     |      Done     |
 
 
 ---
