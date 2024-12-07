@@ -115,10 +115,7 @@ The progress details are outlined below:
 |  TeamViewer |  Done   |  N/A   | Done |
 
 
-
-====================================
-## End
-*Stay tuned*
+---
 
 
 
