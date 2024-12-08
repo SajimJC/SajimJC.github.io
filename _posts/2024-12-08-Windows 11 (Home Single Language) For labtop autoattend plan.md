@@ -12,29 +12,33 @@ tags:
 ## Objective
 
 The unattended OOBE script automates the initial setup of **Windows 11 Home (Single Language edition), pre-installed on laptops**, to simplify the configuration process and enhance efficiency during the first boot. This is particularly useful for system administrators or users aiming to:
+
 	•	Predefine system settings.
+ 
 	•	Configure user accounts.
+ 
 	•	Optimize setup processes for a consistent experience.
 
 ## Key Features of the Script
 
 1.	Language and Region Configuration:
+
 	•	Automatically sets up the system language, region, and input method based on predefined values.
 
 	•	Example: For laptops in China, it sets zh-CN as the language and region.
 
-2.	Network and Account Bypass:
+3.	Network and Account Bypass:
 
 	•	**Skips unnecessary OOBE screens such as Microsoft account login** （Support Home Single Language Version）
 
 	•	Enables local account creation directly.
 
-3.	User Account Setup:
+4.	User Account Setup:
 	•	Automatically creates a local administrator account with pre-configured credentials.
 
 	•	Optionally enables auto-login for the first boot.
 
-4.	System Customizations:
+5.	System Customizations:
 
 	•	Applies registry tweaks for bypassing hardware checks (e.g., TPM, Secure Boot).
 
@@ -42,7 +46,7 @@ The unattended OOBE script automates the initial setup of **Windows 11 Home (Sin
 
 	•	Configures system preferences like privacy settings and feature optimizations.
 
-5.	First Logon Commands:
+6.	First Logon Commands:
 
 	•	Executes custom scripts (e.g., software installation, environment configurations) during the first logon.
 
