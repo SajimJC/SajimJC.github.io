@@ -34,6 +34,7 @@ The unattended OOBE script automates the initial setup of **Windows 11 Home (Sin
 	•	Enables local account creation directly.
 
 4.	User Account Setup:
+
 	•	Automatically creates a local administrator account with pre-configured credentials.
 
 	•	Optionally enables auto-login for the first boot.
@@ -80,7 +81,7 @@ The unattended OOBE script automates the initial setup of **Windows 11 Home (Sin
 
 	•	Optionally, include any other scripts or files needed for customization.
 
-    •	No additional steps are required for creating a bootable USB drive.
+	•	No additional steps are required for creating a bootable USB drive.
 
 
 4. Installation Process:
