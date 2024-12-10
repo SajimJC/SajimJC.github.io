@@ -74,7 +74,6 @@ The progress details are outlined below:
 |  Anaconda|  Done   |   N/A   | Partial |
 |  Digital Micrograph |   Done   |  Done   | Partial |
 |  Jade |   Done   |  Done   | Partial |
-|  R Studio|  Done   |   N/A   | Partial |
 |  Diamond |  Done   |  N/A   | Partial |
 |  Ortep3 |  Done   |  N/A   | Partial |
 |  DrawIo |  Done   |  N/A   | Partial |
@@ -113,7 +112,7 @@ The progress details are outlined below:
 |      FFmpeg       |       Done       |      N/A     |      Done     |
 |     Goldwave      |       Done       |     Done     |    Partial    |
 |      RealVNC      |       Done       |      N/A     |      Done     |
-|    TeamViewer     |       Done       |      N/A     |      Done     |
+|    TeamViewer     |       Done       |      N/A     |    Partial    |
 
 
 ---
