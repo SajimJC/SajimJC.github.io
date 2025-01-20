@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D Biochemistry and Molecular Biology, School of life Science, 2023-present
-* M.S. Pharmaceutical Analysis, College of Chemistry, 2017-2021
+* M.Pharm. Pharmaceutical Analysis, College of Chemistry, 2017-2021
 * B.S. Applied Chemistry, School of Vocational Education and Chemical Engineering, 2012-2016
 
 Work experience
@@ -30,12 +30,14 @@ Work experience
 Skills
 ======
 * Skill 1-Chemical Related 
-  * Sub-skill Organic Synthesis 
-  * Sub-skill Pharmaceutical Analysis
+  * Organic synthesis 
+  * Pharmaceutical analysis
+  * Fundamental calculation by computational chemistry
 * Skill 2-Biology Related
-  * Sub-skill R statistical analysis(ongoing)
-  * Sub-skill Basic operations of molecular biology
+  * Statistical analysis
+  * Basic skills of molecular biology
 * Skill 3-Computer Programming
-  * Sub-skill Python
-  * Sub-skill IT deployment 
+  * Code: Python; C#
+  * IT deployment: Bat
+  * Virtualization
 
