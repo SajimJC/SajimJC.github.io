@@ -30,4 +30,4 @@ The pit viper's infrared precision mirrors our need for strategic focus.
 May 2025 herald focused breakthroughs at disciplinary frontiers, forged through systematic evidence integration and sustained by collegial synergy. Let our collective endeavors embody the serpent's evolutionary ethos—advancing knowledge through calibrated adaptation and thermodynamically efficient rigor.
 
 
-![乙巳蛇年学术祝福](/files/DALL·E 2025-01-28 10.29.04 - A celebration of the Yisi Snake Year (乙巳蛇年) in traditional Chinese style.jpg){: .align-center width="800"}
+![乙巳蛇年学术祝福](/files/DALL·E 2025-01-28 10.29.04 - A celebration of the Yisi Snake Year (乙巳蛇年) in traditional Chinese style.jpg)
