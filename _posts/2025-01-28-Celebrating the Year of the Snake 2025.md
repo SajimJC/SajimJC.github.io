@@ -9,7 +9,7 @@ tags:
 
 # Scholarly Aspirations for the Year of Snake-2025
 
-As we welcome the **Year of the Yin Water Snake (乙巳)** in our calendars, finding wisdom in Chinese ancient symbolism offers wishes for 2025's academic landscape.
+As we welcome the **Year of the Snake (乙巳)** in our calendars, finding wisdom in Chinese ancient symbolism offers wishes for 2025's academic landscape.
 
 ## I. Adaptive Resilience
 A snake's sequential vertebrae articulate a model for flexible persistence
