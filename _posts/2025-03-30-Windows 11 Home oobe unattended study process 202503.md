@@ -7,13 +7,13 @@ tags:
   - windows 11 home
 ---
 
-# Windows 11 Home OOBE Unattended Study Process
+**Windows 11 Home OOBE Unattended Study Process**
 
 ## 0. Background:
 
 The original idea, article link: 
 
-![See This](/_posts/2024-12-08-Windows 11 (Home Single Language) For labtop autoattend plan.md)
+![See This](https://sajimjc.github.io/posts/2024/12/windows11_home_oobe_unattended/)
 
 
 ## 1. The First Problem to Solve:
