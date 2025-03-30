@@ -13,7 +13,7 @@ tags:
 
 The original idea, article link: 
 
-![See This](https://sajimjc.github.io/posts/2024/12/windows11_home_oobe_unattended/)
+![See This Article](/posts/2024/12/windows11_home_oobe_unattended/)
 
 
 ## 1. The First Problem to Solve:
@@ -23,7 +23,7 @@ Why does the Out-of-Box Experience (OOBE) process install many enterprise promot
 
 ### 1.2 Mechanism to Understand
 
-#### Reference Document 1: Learning the Configuration Passes Workflow
+**Reference Document:** Learning the Configuration Passes Workflow
 https://learn.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/how-configuration-passes-work?view=windows-11
 
 ![Configuration Passes](https://learn.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/images/dep-win8-l-configpassesandexes.jpg?view=windows-11)
