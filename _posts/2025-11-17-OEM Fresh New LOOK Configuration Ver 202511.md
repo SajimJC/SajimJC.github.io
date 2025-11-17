@@ -147,17 +147,17 @@ Drafting Guideline ver 202511
 ----
 
 
-# Phase 4: PE Offline Backup Guide
+## Phase 4: PE Offline Backup Guide
 
-## 1. Backup Core Concepts
+### 1. Backup Core Concepts
 
-### 1.1 The Nature of Windows System Backup
+#### 1.1 The Nature of Windows System Backup
 When Windows system is running:
 - System files cannot be directly copied
 - Registry hive files remain open
 - Drivers are loaded into memory
 
-### 1.2 Backup Format Analysis
+#### 1.2 Backup Format Analysis
 
 **WIM Format Advantages**:
 - File-based image format, not sector-level
@@ -165,24 +165,24 @@ When Windows system is running:
 - Can be mounted to view and modify content
 - High compression rate, supports LZX compression algorithm
 
-## 2. Backup Environment Selection
+### 2. Backup Environment Selection
 
-### 2.1 PE Environment vs Online System
+#### 2.1 PE Environment vs Online System
 
 | Environment | Backup Integrity | Use Case | Risk Level |
 |-------------|------------------|----------|------------|
 | **PE Environment** | 100% Complete | Critical system backup, factory state preservation | Low Risk |
 | **Online System** | Relies on VSS shadow copy | Temporary snapshots, daily backups | Medium Risk |
 
-### 2.2 Why PE Environment Backup is Recommended
+#### 2.2 Why PE Environment Backup is Recommended
 - **No file locking**: System partition completely unmounted
 - **No runtime interference**: Avoids system service and application impacts
 - **Registry integrity**: Registry hive files are closed and fully backed up
 - **Activation status preservation**: OEM activation information remains intact
 
-## 3. Dism++ Backup Details
+### 3. Dism++ Backup Details
 
-### 3.1 Tool Preparation
+#### 3.1 Tool Preparation
 
 ```
 Essential components:
@@ -191,7 +191,7 @@ Essential components:
 └── External storage device (NTFS format, capacity ≥32GB)
 ```
 
-### 3.2 Backup Naming Convention
+#### 3.2 Backup Naming Convention
 ```
 [Brand_Series]_[OS_Version]_[Version_Number]_[Status]_[Date].wim
 
@@ -208,7 +208,7 @@ Naming field description:
 • Date: Backup creation date (YYYYMMDD)
 ```
 
-### 3.3 Backup Type Definitions
+#### 3.3 Backup Type Definitions
 
 | Backup Type | Content | Purpose |
 |-------------|---------|---------|
@@ -216,14 +216,14 @@ Naming field description:
 | **Soft Configuration** | Drivers + essential software, not activated | Quick deployment environment |
 | **Full Complete** | All software + configuration + activation | Complete working environment |
 
-## 4. Practical Operation Process
+### 4. Practical Operation Process
 
-### 4.1 Entering PE Environment
+#### 4.1 Entering PE Environment
 1. Boot from MicroPE bootable USB
 2. Wait for PE system to fully load
 3. Open Dism++ tool
 
-### 4.2 Dism++ Backup Settings
+#### 4.2 Dism++ Backup Settings
 
 **PE Environment Settings**:
 - ✅ Bootable image: Ensures system can boot after recovery
@@ -237,7 +237,7 @@ Naming field description:
 - ✅ Shadow copy: Must be checked
 - ⚠️ Note: May cause data inconsistency due to file occupation
 
-### 4.3 Executing Backup
+#### 4.3 Executing Backup
 ```
 Backup path: D:\Backup\  # Recommended external hard drive
 Backup format: WIM
@@ -247,38 +247,38 @@ Key options:
   • Compression algorithm: LZX (best compression rate)
 ```
 
-## 5. Key Technical Points
+### 5. Key Technical Points
 
-### 5.1 OEM Activation Protection
+#### 5.1 OEM Activation Protection
 - PE backup completely preserves digital license activation
 - Avoids breaking OEM activation chain that may occur with online backup
 - No reactivation required after recovery
 
-### 5.2 System Consistency Assurance
+#### 5.2 System Consistency Assurance
 PE environment backup ensures:
 - No pending system updates
 - No partially written registry entries
 - No locked system files
 
-### 5.3 Backup Verification Methods
+#### 5.3 Backup Verification Methods
 After backup completion, verify:
 1. WIM file can be mounted to view content
 2. File size meets expectations
 3. Successful restoration test in PE environment
 
-## 6. Recovery Strategy
+### 6. Recovery Strategy
 
-### 6.1 Recovery Environment Requirements
+#### 6.1 Recovery Environment Requirements
 - Same or updated MicroPE environment
 - Dism++ tool
 - Sufficient disk space
 
-### 6.2 Recovery Precautions
+#### 6.2 Recovery Precautions
 - Backup important data before recovery
 - Ensure correct target disk partition
 - Repair boot record after recovery
 
-## 7. Summary Recommendations
+### 7. Summary Recommendations
 
 **Scenarios requiring PE environment backup**:
 - Initial backup of OEM factory system
