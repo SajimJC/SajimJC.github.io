@@ -1,7 +1,7 @@
 ---
 title: "Streamlit Prototype Deployment & Architecture Guide"
 date: "2025-12-28"
-permalink: "/posts/2025/12/OEM Fresh New LOOK Configuration-202511/"
+permalink: "/posts/2025/12/Streamlit_Deployment_Guidance/"
 tags:
   - Streamlit
   - AI-Visualization
