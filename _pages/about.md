@@ -18,6 +18,6 @@ Hi, I’m SajimJC.
 
 Recent 
 ======
-1. Silent installation for lab use is now checking.
-2. Research is still going on.
+1. Silent installation for lab use is now shifting to new stage(Online Obtaining Installer to execute)
+2. Here, the trumpet is fully sounded for chemistry and artificial intelligence—where the symphony of chemical knowledge harmonizes with intelligent agents, boldly inaugurating a new era of transparent, agentic reasoning in molecular design and beyond.
 
