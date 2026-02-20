@@ -78,11 +78,25 @@ Mermaid diagrams often fail to render due to syntax errors or environmental diff
     %%{init: { 'theme': 'default', 'themeVariables': { 'fontSize': '12px' } } }%%
     ```
 *   **Color Distinction**: Use `classDef` to define colors for different node types and apply them after nodes to enhance readability.
-    ```mermaid
-    classDef model fill:#f9f,stroke:#333,stroke-width:2px;
-    A[Input]:::model --> B[Process]
-    ```
+
+```mermaid
+graph LR
+classDef model fill:#f9f,stroke:#333,stroke-width:2px;
+A[Input]:::model --> B[Process]
+```
+
 *   **Clear Flow**: Ensure the diagram flow (e.g., Left-to-Right `LR` or Top-Down `TD`) is logically clear.
+
+### 5.2.1 Mermaid Test Block
+```mermaid
+flowchart TD
+  A[Start] --> B[Load Config]
+  B --> C{Mermaid Enabled?}
+  C -->|Yes| D[Render Diagram]
+  C -->|No| E[Show Fallback]
+  D --> F[Preview OK]
+  E --> F
+```
 
 ### 5.3 Common Errors and Analysis
 *   **Error**: `A[Text<br>Newline]` -> **Correction**: `A[Text Content]` (Keep single line).
