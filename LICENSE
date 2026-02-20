@@ -1,6 +1,8 @@
-The MIT License (MIT)
+# Combined License for Repository
 
-Copyright (c) 2016 Michael Rose
+## Template License (MIT)
+
+Copyright (c) Michael Rose
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +21,17 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Content License (Custom)
+
+All blog posts, written content, and additional materials added to this repository are © SajimJC.  
+These contents are licensed under the following terms:
+- You may view and use the blog content for personal purposes only.
+- Redistribution, modification, or reuse of the content without explicit permission from the author is prohibited.
+- Proper attribution is required when referencing blog posts or derived content.
+- For inquiries regarding permissions or custom use cases, please contact [@SajimJC on Github](https://github.com/SajimJC).
+
+---
+
+**Note:**  
+The original template used in this repository is licensed under the MIT License. All modifications to the template follow the same terms. However, the blog content and other materials created by the repository owner are protected under the above custom license terms.
