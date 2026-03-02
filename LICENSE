@@ -29,7 +29,17 @@ These contents are licensed under the following terms:
 - You may view and use the blog content for personal purposes only.
 - Redistribution, modification, or reuse of the content without explicit permission from the author is prohibited.
 - Proper attribution is required when referencing blog posts or derived content.
+- No *cloning, forking, scraping, crawling, text and data mining, dataset creation, or indexing* of **any content**, whether automated or manual, is permitted without the author's prior written permission.
+- The content may not be used to train, fine-tune, evaluate, or otherwise develop machine learning or AI models (including large language models) without the author's prior written permission.
+- Some blog posts may be created with the assistance of AI tools. Regardless of the tools used, the author retains all rights in the human-authored portions of the content, as well as in the selection, arrangement, and editorial modifications of the content as a whole, to the maximum extent permitted by applicable law.
+- All rights are reserved by the author. The author may pursue any and all legal remedies against unauthorized use to protect their rights and interests.
 - For inquiries regarding permissions or custom use cases, please contact [@SajimJC on Github](https://github.com/SajimJC).
+
+## Chinese summary (for convenience; in case of discrepancy, the English terms above prevail):
+- 博文可能包含 AI 辅助生成内容；作者对人工创作部分，以及对整体内容的选编、结构与编辑加工享有权利；任何使用仍受上述条款约束。
+- 未经作者书面同意，严禁任何形式的自动化克隆/爬取/抓取/采集、文本与数据挖掘、数据集构建或索引。
+- 未经作者书面同意，严禁将博文内容用于训练、微调、评估或以任何方式开发 AI/机器学习模型（含大语言模型）。
+- 作者保留全部权利。对任何未获授权的使用，作者可能采取法律措施以维护自身权益。
 
 ---
 
