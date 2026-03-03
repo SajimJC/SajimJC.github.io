@@ -196,9 +196,20 @@
    ========================================================================== */
 
 .page__share {
-  margin-top: 2em;
-  padding-top: 1em;
+  /* Margin: 外边距（元素外部的空间）*/
+  margin-top: 2em;      /* 上方外边距：与上面元素的距离 */
+  margin-bottom: 0;     /* 下方外边距：与下面元素的距离（设为0避免重叠） */
+
+  /* Padding: 内边距（元素内部的空间）*/
+  padding-top: 1em;     /* 上方内边距：内容与上边框的距离 */
+  padding-bottom: 1em;  /* 下方内边距：内容与下边框的距离（固定高度） */
+
   border-top: 1px solid var(--global-border-color);
+  display: flex;
+  flex-direction: row;   /* Horizontal layout for buttons */
+  justify-content: flex-start; /* Left align buttons */
+  align-items: center;   /* Vertically center align buttons */
+  flex-wrap: wrap;       /* Allow buttons to wrap on small screens */
 
   @include breakpoint(max-width $small) {
     .btn span {
@@ -215,18 +226,69 @@
 }
 
 .page__share-title {
+  width: 100%;           /* Make title take full width to force buttons to next line */
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
 }
 
-
 /*
-   Page meta
+   Copyright notice
    ========================================================================== */
 
+.page__copyright {
+  clear: both;
+  margin-top: 0;        /* Remove top margin to bring closer to line */
+  margin-bottom: 0;
+  padding-top: 0.5em;   /* Reduce top padding */
+  padding-bottom: 0.5em; /* Reduce bottom padding */
+  border-top: 1px solid var(--global-border-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Vertically center align copyright section */
+
+  h4 {
+    margin-bottom: 10px;
+    font-size: $type-size-6;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin: 0 0 0.5em 0;
+    text-align: left; /* left "See LICENSE" text */
+    color: var(--global-text-color-light);
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+
+/*
+   Page meta (Tags section)
+   ========================================================================== */
+/* .page__meta 是文章的标签区域（Tags）
+   包含：标题"Tags"和具体的标签列表（如 "guide", "silent_installation"）
+   修改这里是为了让 Tags 这一行在两条横线之间垂直居中显示 */
+
 .page__meta {
-  margin-top: 2em;
+  /* Margin: 外边距（元素外部的空间）*/
+  margin-top: 2em;      /* 上方外边距：与上面元素的距离 */
+  margin-bottom: 0;     /* 下方外边距：与下面元素的距离（设为0避免重叠） */
+
+  /* Padding: 内边距（元素内部的空间）*/
+  padding-top: 2.5em;   /* 增加上方内边距 - 让Tags放在区块中间 */
+  padding-bottom: 1.0em; /* 下方内边距 */
+
+  border-top: 1px solid var(--global-border-color);
+  display: flex;
+  flex-direction: row;   /* Horizontal layout for tags */
+  justify-content: flex-start; /* Left align tags */
+  align-items: center;   /* Vertically center align tags */
+  flex-wrap: wrap;       /* Allow tags to wrap on small screens */
   color: var(--global-text-color-light);
   font-family: $sans-serif;
   font-size: $type-size-6;
@@ -242,6 +304,7 @@
 
 .page__meta-title {
   margin-bottom: 10px;
+  margin-right: 10px;    /* Add spacing between title and tags */
   font-size: $type-size-6;
   text-transform: uppercase;
 }
