@@ -24,3 +24,7 @@ package-lock.json
 
 # Ignore the current status markdown file
 STATUS.md
+AGENTS.md
+
+# Ignore the draftregion directory
+draftregion/
